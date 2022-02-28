@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    /* color: #ffffff; */
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.header_top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header_logo_container {
+}
+
+.header_top_nav {
+}
+
+.header_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header_bottom_intro {
+    width: 70%;
+    margin-left: 20px;
+}
+
+.header_bottom_img_container {
+    width: 30%;
+    margin-right: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+}
+
+.main_products {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product_cards {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 20px 5px;
+}
+
+.card_top {
+}
+
+.card_bottom {
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+}
+
+.product_col1 {
+}
+
+.product_col2 {
+}
+
+.main_about_MB {
+    display: flex;
+    flex-direction: row;
+}
+
+.about_MB_left {
+    width: 50%;
+}
+
+.about_MB_right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.about_right_top {
+}
+
+.about_right_bottom {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.main_video {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.main_buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.view_products_btn {
+}
+
+.contact_btn {
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+}
+
+.footer_top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+}
+
+.footer_top_left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    width: 25%
+}
+
+.footer_top_left_logo_address {
+}
+
+.footer_top_left_social_icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_top_right {
+    margin-left: 10px;
+    width: 65%;
+}
+
+.footer_top_right_subscribe {
+}
+
+.footer_top_left_nav {
+}
+
+.footer_bottom {
+    font-size: small;
+}
+
+img {
+    width: 100%;
+}
+
+.product-image {
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #044560;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #044560;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4, .blue_text {
+    color: #044560;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.small_icon {
+    max-width: 20px;
+    max-height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.get_to_know {
+    font-size: small;
+}
